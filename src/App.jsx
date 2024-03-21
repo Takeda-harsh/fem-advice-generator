@@ -47,13 +47,14 @@ function App() {
   <img src="./pattern-divider-desktop.svg" className="hidden md:block" alt="Pattern for tablets and desktops"/>
 </div>
 
-        <div id="new-advice" className="absolute sm-top md-top w-14 h-14 bg-bg2 rounded-full flex items-center justify-center hover:shadow-green" onClick={getAdvice}>
-          <img src="./icon-dice.svg"/>
-        </div>
+        
 
         
 
       </div>
+      <div id="new-advice" className=" w-14 h-14 bg-bg2 rounded-full flex items-center justify-center hover:shadow-green" onClick={getAdvice}>
+          <img src="./icon-dice.svg"/>
+        </div>
       <div className="attribution mt-20 text-white">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/Takeda-harsh" className="font-bold">Kofi A. Akyea</a>.
